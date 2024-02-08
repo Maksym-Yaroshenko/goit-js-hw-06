@@ -19,7 +19,8 @@ class Storage {
     //     array.splice(index, 1);
     //   }
     // });
-    this.#items = this.#items.filter((item) => item !== itemToRemove);
+
+    this.#items = this.#items.filter((item) => item !== itemToRemove); //       На скільки закоментований варіант гірший за цей?
   }
 }
 
